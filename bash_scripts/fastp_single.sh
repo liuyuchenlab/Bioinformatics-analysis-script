@@ -1,0 +1,2 @@
+#!/bin/bash
+input_dir="./"; output_dir="./fastp"; mkdir -p "${output_dir}"; for sample in $(ls "${input_dir}"/*.fq.gz | xargs -I {} basename {} ".fq.gz"); do fastp --thread 40 -i "${input_dir}/${sample}.fq.gz" -o "${output_dir}/${sample}.fq.gz" --length_required 18 --n_base_limit 10 --correction --json "${output_dir}/${sample}_fastp.json" --html "${output_dir}/${sample}_fastp.html"; done; multiqc "${output_dir}"/*_fastp.json -o "${output_dir}/"
