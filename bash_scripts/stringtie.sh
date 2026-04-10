@@ -1,0 +1,1 @@
+for i in *Aligned.sortedByCoord.out.bam ; do i=${i%Aligned.sortedByCoord.out.bam*}; stringtie -A gene_abund/${i}_gene_abund.tab   -p 128  -G /disk5/lyc/reference/mouse/mm10/mm10-2020-A_build/gencode.vM23.primary_assembly.annotation.gtf.filtered.gtf -o stringtie/${i}.gtf ${i}Aligned.sortedByCoord.out.bam & done
