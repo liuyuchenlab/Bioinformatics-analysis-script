@@ -1,18 +1,9 @@
-# README\.md
-
-\-\-\-
-
-# README
-
-\-\-\-
-
 ## Repository Introduction（仓库介绍）
 
 This repository is dedicated to storing and managing two types of core files: \*\*Linux bash scripts\*\* and \*\*R script files \(\.R files\)\*\*\. It aims to provide a centralized, organized storage space for related script resources, facilitating management, reuse and version control of scripts in bioinformatics analysis, data processing or other related work scenarios\.
 
 本仓库用于集中存储和管理两类核心文件：\*\*Linux的bash脚本文件\*\* 和 \*\*R语言的R文档文件（\.R文件）\*\*，旨在为生物信息学分析、数据处理或其他相关工作场景中的脚本提供一个集中化、规范化的存储空间，方便脚本的管理、复用与版本控制。
 
-\-\-\-
 
 ## File Types（文件类型）
 
@@ -36,8 +27,6 @@ Purpose: Used for data analysis, statistical modeling, visualization, and other 
 
 用途：用于基于R语言的数据统计分析、建模、可视化等相关任务，脚本可调用常见R包（如tidyverse、ggplot2），兼容标准R或RStudio运行环境。
 
-\-\-\-
-
 ## Usage Notes（使用说明）
 
 - Bash scripts: Before execution, ensure the script has executable permissions\. Run the command \`chmod \+x filename\.sh\` in the Linux terminal, then execute it with \`\./filename\.sh\`\.
@@ -51,8 +40,6 @@ Purpose: Used for data analysis, statistical modeling, visualization, and other 
 - R脚本：使用R或RStudio打开\.R文件，根据脚本逻辑逐行或批量运行代码，建议提前根据脚本提示安装所需的R包。
 
 - 仓库内所有脚本仅用于研究或工作用途，使用前请查看脚本注释，了解脚本的功能、参数及使用注意事项。
-
-\-\-\-
 
 ## Repository Management（仓库管理）
 
@@ -72,14 +59,8 @@ To ensure the orderliness and usability of the repository, please follow the fol
 
 3. 添加脚本注释：每个脚本开头添加必要注释，包括脚本功能、作者、创建日期、使用方法等信息，便于后续维护和复用。
 
-\-\-\-
-
 ## Contact Information（联系方式）
 
 If you have questions about the scripts in the repository or need to modify and maintain the repository, please contact the repository administrator for communication\.
 
 若对仓库内脚本有疑问，或需要对仓库进行修改、维护，请联系仓库管理员沟通。
-
-\-\-\-
-
-> （注：文档部分内容可能由 AI 生成）
